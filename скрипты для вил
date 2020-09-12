@@ -1,0 +1,6 @@
+var tovarCount=0;
+
+function SomeFunction(){
+  tovarCount++;
+  document.getElementById("Korz").innerHTML="Корзина: "+tovarCount+" шт";
+}
