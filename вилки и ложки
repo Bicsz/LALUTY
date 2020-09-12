@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css" >
+     <script src="scripts/script.js"></script>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>Вилки $ Ложки</title>
+  </head>
+  <body id="body">
+      <div class="continer">
+        <div class="row">
+            <div class="brd col pl-5">
+            <h2>Вилки $ Ложки</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+            <h3><h2 class="pl-4">Каталог</h2></h3>
+            </div>
+            <div class="col-6">
+            <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2 float-right"><h3 id="Korz">Корзина: 0 шт</h3></button>
+                </div>
+        </div>  
+      </div>
+      
+      
+      <div class="continer">       
+      <div class="row mt-3">
+      <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-18.userapi.com/t5LC6dvf2WAnYOVsBoaoras5rvtUWjhlP-zP1w/2iZ-j9wAYRQ.jpg"/>
+          <p>100p + пафос в подарок!!!</p>
+          <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+      </div>
+      <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-87.userapi.com/aWfEt3Yjr8i_HtiB3OcKjpjkfT4625OdptpGlw/jCQ30oI4658.jpg"/>           <p>150p + понты в подарок!!!</p>
+          <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+      </div>
+      <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-24.userapi.com/PbxHZPrQIxuvjjeoXnp1A3MtxTN0McT9jww4Ng/Dnz5tI_6cLk.jpg"/>           <p>12340p + кредит в подарок!!!</p>
+          <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+          </div>
+          <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-96.userapi.com/bv1Ki_1MJrshv7xqjVVOtlD7ijYLfZnMWcVs0A/0qBsJfP3r3Y.jpg"/>           <p>Акция: 3 вилки по цене 4!!!</p>
+              <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+          </div>
+      </div>
+          <div class="row mt-3">
+      <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-21.userapi.com/ryKT6Tj7wUYjmN3A-xpTMeuI0tsx4sbGr0utvg/HYiFVkqbuKk.jpg"/>           <p>Ложка Столовая</p>
+          <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+      </div>
+      <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-91.userapi.com/Rrf6P2B-nbvP7BPV3cb4Wn7b2RiBeb8RyZw8nQ/_8zZSGJH6Fo.jpg"/>
+          <p>Вилка Столовая</p>
+          <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+      </div>
+      <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-84.userapi.com/GY7hAiWJdPBRdMejzCXaEGbmn_YsDoCPXE5fbA/2_FrpM_E4vQ.jpg"/>           <p>Ложка Мажорная</p>
+          <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+          </div>
+              <div class="col-3 pl-5 ">
+       <img width="150 px" height="150 px" src="https://sun1-26.userapi.com/BH2zGs6WgMyNOVmNdxeVEESbRGlFQsXaYAAnKA/wB_HaPBBNSE.jpg"/>           <p>Ложка красивая</p>
+                  <button onClick="SomeFunction()" id="top_button1" type="button" class="btn btn-outline-dark rounded-0 mr-4 mt-2"><h4>В корзину</h4></button>
+          </div>
+      </div>
+     </div>
+      
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ </body>
+</html>
