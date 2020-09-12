@@ -1,0 +1,18 @@
+body{
+    background: lightblue;
+}
+.brd {
+    border-bottom: 1px solid black; /* Параметры границы */
+    
+}
+#top_button{
+    border: 1px solid black;
+    font-weight: 500;
+}
+.top_menu p{
+    transition: .3s;
+    cursor: pointer;
+}
+.top_menu p: hover
+    background: white;
+    color: black;
